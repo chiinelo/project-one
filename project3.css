@@ -1,0 +1,55 @@
+body{
+    background-color: #11112f;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.child-one{
+    background-color: #1c1c4d;
+    width: 40%;
+    padding: 4% 3%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    /*height: 30px;*/
+}
+
+.child{
+    /*background-color: red;*/
+    width: 80%;
+    margin: auto;
+    padding-left: 5%;
+    color: #ffffff;
+
+}
+
+.text-parent{
+    display: flex;
+}
+
+.insights{
+    color: #9370DBFF;
+}
+
+.text{
+    margin-right: 10%;
+}
+
+.child-two{
+    width: 40%;
+    background:
+            linear-gradient(
+            rgb(147, 112, 219, 0.5),
+            rgb(147, 112, 219, 0.5)
+            ),
+            url(image-header-desktop.jpg);
+    background-size: cover;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+
+
